@@ -36,7 +36,7 @@ namespace pLauncher
         {
             using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
             {
-                folderDialog.Description = "Select your game directory";
+                folderDialog.Description = "Select Your Game Directory";
                 folderDialog.ShowNewFolderButton = false;
 
                 if (folderDialog.ShowDialog() == DialogResult.OK)
@@ -121,7 +121,7 @@ namespace pLauncher
 
         private void helpButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Have any issues? Check out the latest updates in the discord!\ndiscord.gg/examplelink");
+            MessageBox.Show("Have any issues? Check out the latest updates in the discord!\ndiscord.gg/yuAMDxGPmP");
         }
 
         private void label1_Click(object sender, EventArgs e)
